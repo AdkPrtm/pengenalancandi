@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:skripsi/config/config.dart';
+import 'package:skripsi/data/src/img_src.dart';
 
 class BoxPanduanWidget extends StatelessWidget {
   const BoxPanduanWidget({
@@ -10,12 +11,18 @@ class BoxPanduanWidget extends StatelessWidget {
     required this.heightContainer,
     this.isLast = false,
     this.isFirst = false,
+    this.imgSrc = '',
+    this.withImage = false, 
+    this.heightImage = 60,
   }) : super(key: key);
 
   final String textPanduan;
   final String numberStep;
+  final String imgSrc;
   final double heightContainer;
+  final double heightImage;
   final bool isLast;
+  final bool withImage;
   final bool isFirst;
 
   @override
@@ -72,14 +79,15 @@ class BoxPanduanWidget extends StatelessWidget {
           ),
           Expanded(
             child: Padding(
-              padding: EdgeInsets.only(top: AppDimen.h5, right: AppDimen.w16, bottom: AppDimen.h8),
+              padding: EdgeInsets.only(
+                  top: AppDimen.h5, right: AppDimen.w16, bottom: AppDimen.h8),
               child: Container(
                 constraints: const BoxConstraints(
                   minHeight: double.infinity,
                   minWidth: double.infinity,
                 ),
-                padding:
-                    EdgeInsets.symmetric(horizontal: AppDimen.w10, vertical: AppDimen.h6),
+                padding: EdgeInsets.symmetric(
+                    horizontal: AppDimen.w10, vertical: AppDimen.h6),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
                     color: AppColor.cWhite,
@@ -102,6 +110,21 @@ class BoxPanduanWidget extends StatelessWidget {
                             thickness: 1,
                             color: AppColor.cGrey,
                           ),
+                    withImage
+                        ? Center(
+                            child: Container(
+                              height: heightImage,
+                              width: heightImage,
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  image: AssetImage(
+                                    imgSrc,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          )
+                        : const SizedBox(),
                   ],
                 ),
               ),

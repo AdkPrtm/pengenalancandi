@@ -2,6 +2,8 @@ class ImgString {
   static const String profile = 'assets/image/profile.jpg';
   static const String unmul = 'assets/image/unmul.png';
   static const String map = 'assets/image/map.png';
+  static const String panduankamera = 'assets/image/panduankamera.png';
+  static const String panduanscan = 'assets/image/panduanscan.jpg';
 
   //GAMBAR DAN RELIEF BOROBUDUR
   static const String borobudur1 = 'assets/image/borobudur/gambar1.jpg';

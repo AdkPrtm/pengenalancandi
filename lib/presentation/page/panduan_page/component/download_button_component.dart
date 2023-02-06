@@ -46,7 +46,8 @@ class DownloadButton extends StatelessWidget {
           file = File('${dir.path}/$fileName');
           if (await file.exists()) {
             Fluttertoast.showToast(
-              msg: "The file is available in the download/panduan.pdf folder, please delete it first.",
+              msg:
+                  "The file is available in the download/panduan.pdf folder, please delete it first.",
               toastLength: Toast.LENGTH_SHORT,
               backgroundColor: AppColor.cGrey,
               textColor: Colors.white,
@@ -83,7 +84,7 @@ class DownloadButton extends StatelessWidget {
           bool result = await downloadFile('panduan.pdf');
           if (result) {
             Fluttertoast.showToast(
-              msg: "Download successfully",
+              msg: "Download successfully at 'download/panduan.pdf'",
               toastLength: Toast.LENGTH_SHORT,
               backgroundColor: AppColor.cGrey,
               textColor: Colors.white,
