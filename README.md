@@ -1,16 +1,18 @@
-# skripsi
+# AR Pengenalan Candi 
 
-A new Flutter project.
+Tujuan pembuatan aplikasi augmented reality menggunakan metode marklerless berbasis Android untuk mendukung proses pembelajaran siswa SMA ITCI Penajam Paser Utara dengan menampilkan objek candi secara 3D sehingga memberikan ilustrasi atau bayangan mengenai material desain dari candi yang mencakup pemberian nilai tambah pula untuk buku-buku yang sudah ada.
 
-## Getting Started
+## Cara Penggunaan
 
-This project is a starting point for a Flutter application.
+Project ini menggunakan 2 bahasa pemograman yaitu C# dari unity dan framework flutter dari dart. 
 
-A few resources to get you started if this is your first Flutter project:
+Untuk mengunduh file unity yang telah diexport bisa kalian download pada link dibawah.
+- [Export Unity Project](https://drive.google.com/file/d/1xyelSPWld4zp0utfH0NFEGPSp-qxz1G-/view?usp=share_link)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Dalam aplikasi ini membutuhkan package dari Flutter yaitu :
+- [Package Flutter Unity](https://pub.dev/packages/flutter_unity)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+dari situ kalian bisa membaca dokumentasi tata cara penggunaan package tersebut.
+
+## Kontak kami
+<a href="https://www.instagram.com/adk_prtm/"><img src="https://edent.github.io/SuperTinyIcons/images/svg/instagram.svg" width="125" title="Instagram"/></a>
