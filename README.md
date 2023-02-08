@@ -14,5 +14,5 @@ Dalam aplikasi ini membutuhkan package dari Flutter yaitu :
 
 dari situ kalian bisa membaca dokumentasi tata cara penggunaan package tersebut.
 
-## Kontak kami
-<a href="https://www.instagram.com/adk_prtm/"><img src="https://edent.github.io/SuperTinyIcons/images/svg/instagram.svg" width="75" title="Instagram"/></a>
+## Kontak Saya
+<a href="https://www.instagram.com/adk_prtm/"><img src="https://edent.github.io/SuperTinyIcons/images/svg/instagram.svg" width="50" title="Instagram"/></a>
