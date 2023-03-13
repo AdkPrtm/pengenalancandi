@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:skripsi/config/config.dart';
-import 'package:skripsi/data/src/img_src.dart';
 
 class BoxPanduanWidget extends StatelessWidget {
   const BoxPanduanWidget({
